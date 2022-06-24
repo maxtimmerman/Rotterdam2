@@ -1,0 +1,287 @@
+
+body {
+    height: 100vh;
+    background-color: steelblue;
+    color:rgb(29, 73, 155);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+header {
+    background-color: azure;
+    font-size: 28px;
+    padding: 28px;
+    
+}
+h2 {
+    color:rgb(194, 215, 240);
+    margin-top: 60px;
+}
+
+nav {
+    background-color: azure;
+    padding: 1px;
+}
+
+nav li {
+    display: block;
+    width: 80%;
+    padding: 18px;
+    background-color: rgb(191, 214, 243);
+    font-size: 26px;
+    margin-bottom: 1.4rem;
+    border-radius: 25px;
+    
+}
+
+nav li:hover {
+    background-color: rgb(77, 107, 145);
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    color: rgb(29, 73, 155);
+}
+
+a:hover, a:active {
+    color: lightgrey;
+    
+}
+
+p {
+    color:rgb(191, 214, 243);
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    padding: 10%;
+}
+
+img {
+    width: 95%;
+    border-style: solid;
+    border-radius: 1cm;
+    border-color: rgb(191, 214, 243);
+}
+
+aside {
+    text-align: right;
+    color: honeydew;
+    font-size: 12px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+footer {
+    background-color: azure;
+    font-size: 15px;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.architectuur {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    width: 180px;
+    margin-bottom: 20px;     
+}
+
+.architectuur img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+}
+
+.architectuur div {
+    padding: 15px;
+    text-align: center;
+    color: darkblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+ 
+form {
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        width: 200px;
+      }
+      
+input[type=submit]:hover {
+        background-color: #45a049;
+      }    
+    
+input[type=reset] {
+    background-color:rgb(131, 25, 60);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: none;
+    width: 200px;
+}
+
+input[type=reset]:hover {
+    background-color: rgb(182, 33, 83);
+}   
+
+.container {
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.col-25, .col-75, input[type=submit], input[type=reset] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* dropdown menus voor Natuur, Cultuur, Architectuur en Contact */
+/*
+.dropbtn {
+    background-color: rgb(191, 214, 243);
+    color: rgb(29, 73, 155);
+    padding: 18px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+  
+.dropdown {
+    position: relative;
+    display:grid;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    width: 40%;
+    overflow:auto;
+    font-size: 18px;
+    z-index:1;
+    margin: 40px;
+    padding: 18px;
+}
+
+.dropdown-content a {
+    color: rgb(191, 214, 243);
+    background-color: rgb(77, 107, 145);
+    padding: 18px;
+    margin: 10px;
+    text-decoration: none;
+    display: block;
+    border-radius: 25px;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(63, 89, 124);
+    border-radius: 25px;
+}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 25px;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: rgb(77, 107, 145);
+    color:rgb(191, 214, 243);
+    border-radius: 25px;
+}
+*/
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: azure;
+        color: rgb(2, 38, 49);
+    }
+    
+    header {
+        background-color: steelblue;
+    }
+
+    nav {
+        background-color: steelblue;
+        padding-bottom: 20px;
+    }
+
+    nav li {
+        display: inline;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    
+    h2 {
+        font-size: 44px;
+        color:rgb(29, 73, 155)
+    }
+
+    p {
+        font-size: 22px;
+        color:rgb(63, 89, 124)
+    }
+
+    aside {
+        color:rgb(77, 107, 145);
+        font-size: 15px;
+    }
+
+    footer {
+        background-color: rgb(190, 197, 209);
+        color:rgb(100, 102, 104);
+        font-size: 20px;
+        font-weight: 300;
+        border: rgb(191, 214, 243) solid 3px;
+        border-radius: 25px;
+    }
+
+    .container {
+        background-color:cornsilk;
+        border:rgb(100, 102, 104) solid 1px;
+        border-radius: 10px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
